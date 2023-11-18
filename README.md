@@ -43,11 +43,10 @@ This workshop aims to make a prediction of the happiness score, making use of fi
 6. Create database credentials file 'config_db.json' with the following structure and fill it with your own credentials:
     ```
     {
-      "user":"",
-      "password":"",
-      "host":"",
-      "server": "",
-      "db":""
+    "host": "",  
+    "database": "",
+    "user": "",
+    "password": ""
     }
     ```
 7. After you have your data in the DB you can run the [metrics.py](metrics.py) to get the metrics of the model precision. 
